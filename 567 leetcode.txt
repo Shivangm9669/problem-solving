@@ -1,0 +1,88 @@
+bool check(string s1 , string s2)
+    // {
+    //     sort(s1.begin() , s1.end());
+    //     sort(s2.begin() , s2.end());
+    //     int len = s2.length();
+    //     if(s1.length()!=len)
+    //     {
+    //         return false;
+    //     }
+        
+    //     for(int i =0 ; i<len ; i++)
+    //     {
+    //         if(s1[i]!=s2[i])
+    //         {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    // // void print(string s)
+    // // {
+    // //     for(auto x : s)
+    // //     {
+    // //         cout<<x;
+    // //     }
+    // // }
+
+    // // bool checkInclusion(string s1, string s2) 
+    // // {
+
+    // //     int len = s1.length();
+    // //     int n = s2.length();
+    // //     // string s3 = s1.substr(0 , len);
+    // //     int j =0;
+
+    // //     for(int i =0 ; i<n ; i++)
+    // //     {
+    // //         string s3=s2.substr(i,len);
+    // //         print(s3);
+    // //         cout<<endl;
+    // //         if(check(s3 , s1))
+    // //         {
+    // //             return true;
+    // //         }
+    // //     }
+    // //     return false;
+    // // }
+
+    // // bool checkInclusion(string s1, string s2) solu 2 wrong answer
+    // // {
+    // //     int n = s1.length();
+    // //     int m =s2.length();
+    // //     unordered_map<char , bool> mp;
+    // //     for(int i =0 ; i<m ; i++)
+    // //     {
+    // //         mp[s1[i]]=true;
+    // //     } 
+    // //     int i =0, j=0;
+    // //     while(i<m)
+    // //     {
+    // //         if(mp.find(s2[i])!=mp.end())
+    // //         {
+    // //             string s3="";
+
+    // //             while(mp.find(s2[i])!=mp.end() && i<m)
+    // //             {
+    // //                 // cout<<"here";
+    // //                 s3+=s2[i];
+    // //                 i++;
+    // //             }
+    // //             // cout<<endl;
+    // //             if(i-j==n)
+    // //             {
+    // //                 // print(s3);
+    // //                 // cout<<endl;
+    // //                 if(check(s1, s3))
+    // //                 {
+    // //                     return true;
+    // //                 }
+    // //             }
+    // //         }
+    // //         else
+    // //         {
+    // //             i++;
+    // //         }
+    // //         j=i;
+    // //     }
+    // //     return false;
